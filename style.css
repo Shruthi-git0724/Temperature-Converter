@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif; /* Updated */
+}
+body {
+    background: url('https://img.freepik.com/free-photo/bicolored-paper-sheets-with-copy-space_23-2148320412.jpg?t=st=1736911356~exp=1736914956~hmac=a15677eb0fad598050675f8a1fce2fcf9b13cbd542404dc56aed94802cf1c11c&w=1380');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.2); /* Added transparency for readability */
+    border-radius: 10px;
+}
+
+#calcT {
+    padding: 20px;
+    background-color: rgb(132, 156, 241);
+    box-shadow: rgba(89, 6, 8, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    border-radius: 10px;
+}
+
+label {
+    font-size: 20px;
+    line-height: 2rem;
+}
+
+#temp, #temp_diff, #submit {
+    margin: 10px;
+    padding: 8px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+#submit {
+    cursor: pointer;
+    background-color: rgb(22, 231, 246);
+    transition: background-color 0.5s ease;
+}
+
+#submit:hover {
+    background-color: rgb(220, 146, 49);
+}
+
+#result {
+    font-size: 20px;
+    margin-top: 10px;
+    display: block;
+}
